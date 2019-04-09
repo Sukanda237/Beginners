@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beginners", "Beginners\Beginners.csproj", "{1C42EF10-1364-4DE7-8295-DB779B2A7BCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beginners", "Beginners\Beginners.csproj", "{1C42EF10-1364-4DE7-8295-DB779B2A7BCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriablesandConstants", "VeriablesandConstants\VeriablesandConstants.csproj", "{E610F27C-7B8D-4057-AB65-6874AAAAA19B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeriablesandConstants", "VeriablesandConstants\VeriablesandConstants.csproj", "{E610F27C-7B8D-4057-AB65-6874AAAAA19B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{A9B398A2-0294-40FA-B168-8E84D460A9EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypeConversion", "TypeConversion\TypeConversion.csproj", "{A9B398A2-0294-40FA-B168-8E84D460A9EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{AE73A154-3499-4CEA-9344-648B16A4F2CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{BB99E274-240D-4DB9-96B7-48F0B8F1A4A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{0EAE0441-1C35-4956-8CB1-046E5A2FEE83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CobaEnum", "Enum\CobaEnum.csproj", "{1354E2D8-721C-47E3-8F90-4FD91B3CA72B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypesandValueType", "ReferenceTypesandValueType\ReferenceTypesandValueType.csproj", "{FDE1B87E-19C2-48BA-A517-C00E0E85F603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypesandValueType2", "ReferenceTypesandValueType2\ReferenceTypesandValueType2.csproj", "{6B9B837B-1DCB-4E38-BAF2-C9E66629C8DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +39,30 @@ Global
 		{A9B398A2-0294-40FA-B168-8E84D460A9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9B398A2-0294-40FA-B168-8E84D460A9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9B398A2-0294-40FA-B168-8E84D460A9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE73A154-3499-4CEA-9344-648B16A4F2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE73A154-3499-4CEA-9344-648B16A4F2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE73A154-3499-4CEA-9344-648B16A4F2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE73A154-3499-4CEA-9344-648B16A4F2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB99E274-240D-4DB9-96B7-48F0B8F1A4A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB99E274-240D-4DB9-96B7-48F0B8F1A4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB99E274-240D-4DB9-96B7-48F0B8F1A4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB99E274-240D-4DB9-96B7-48F0B8F1A4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EAE0441-1C35-4956-8CB1-046E5A2FEE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EAE0441-1C35-4956-8CB1-046E5A2FEE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EAE0441-1C35-4956-8CB1-046E5A2FEE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EAE0441-1C35-4956-8CB1-046E5A2FEE83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1354E2D8-721C-47E3-8F90-4FD91B3CA72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1354E2D8-721C-47E3-8F90-4FD91B3CA72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1354E2D8-721C-47E3-8F90-4FD91B3CA72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1354E2D8-721C-47E3-8F90-4FD91B3CA72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE1B87E-19C2-48BA-A517-C00E0E85F603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE1B87E-19C2-48BA-A517-C00E0E85F603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE1B87E-19C2-48BA-A517-C00E0E85F603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE1B87E-19C2-48BA-A517-C00E0E85F603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9B837B-1DCB-4E38-BAF2-C9E66629C8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9B837B-1DCB-4E38-BAF2-C9E66629C8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9B837B-1DCB-4E38-BAF2-C9E66629C8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9B837B-1DCB-4E38-BAF2-C9E66629C8DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
